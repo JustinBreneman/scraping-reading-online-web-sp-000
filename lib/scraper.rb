@@ -9,7 +9,7 @@ courses = doc.css("id-3c239880-48cf-5ce7-84d0-578546d87586 inlineMobileLeft-2Yo0
 def course
   courses.each do |course|
     puts course.text.strip
-  end  
+  end
 end
 
 course
